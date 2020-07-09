@@ -1,0 +1,24 @@
+@primaryColorOne: #3551A2;
+@primaryColorTwo: rgba(24, 144, 255, 0.8);
+@fontColorOne: #606266;
+@borderColor: #dcdfe6;
+
+.box-shadow(@x-shadow: 0px; @y-shadow: 4px; @blur: 20px; @color: rgba(0,0,0,0.05);) {
+  -webkit-box-shadow: @x-shadow @y-shadow @blur @color;
+  -moz-box-shadow: @x-shadow @y-shadow @blur @color;
+  box-shadow: @x-shadow @y-shadow @blur @color;
+}
+
+.border-radius(@num: 4px) {
+  -webkit-border-radius: @num;
+  -moz-border-radius: @num;
+  border-radius: @num;
+}
+
+.transform(@attr) {
+  -webkit-transform: @attr;
+  -moz-transform: @attr;
+  -ms-transform: @attr;
+  -o-transform: @attr;
+  transform: @attr;
+}

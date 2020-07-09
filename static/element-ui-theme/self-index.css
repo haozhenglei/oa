@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*---------- NavMenu ----------*/
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
+
+/*---------- Button ----------*/
+.el-button--small {
+  font-size: 14px;
+}
+
+/*---------- tree ----------*/
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+  border-color: #606266;
+}
+
+
+/*---------- select ----------*/
+.el-select {
+  width: 100%;
+}
+
+/*---------- date ----------*/
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: 100%;
+}
+
+/*---------- card ----------*/
+.el-card__body {
+  padding: 30px;
+}
+
+/*---------- cascader ----------*/
+.el-cascader--small {
+  width: 100%;
+}
+.el-dialog__wrapper {
+  overflow: hidden;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.ove{
+  overflow: hidden;
+}
+.clear{
+  clear: both;
+}
+.center{
+  text-align: center;
+}
+.pointer{
+  cursor: pointer;
+}
+.tright{
+  text-align: right;
+}
