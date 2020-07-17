@@ -55,13 +55,18 @@
         return this.$store.state.Public.bodyHeight
       },
       //页面内点击按钮跳转页面,导航栏选中
-      firstMenuActive(){
-        return this.$route.path;
+      // firstMenuActive(){
+      //   return this.$route.path;
+      // }
+    },
+    watch:{
+      '$route'(to,from){
+        this.firstMenuActive=to.path
       }
     },
     data() {
       return {
-        // firstMenuActive: '/'
+        firstMenuActive: this.$route.path
       }
     },
     created() {
